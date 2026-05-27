@@ -1,0 +1,10 @@
+package cn.jpeach.frame.cache;
+
+public interface FrameCache<K, V> {
+
+	public void put(K key, V value);
+
+	public V get(K key);
+
+	public boolean containsKey(K key);
+}
